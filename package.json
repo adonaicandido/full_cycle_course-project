@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "full_cycle_course-project",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-organize-imports": "^3.2.3",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "eslint:recommended",
+      "prettier"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "plugins": [
+      "prettier-plugin-organize-imports"
+    ]
+  }
+}
