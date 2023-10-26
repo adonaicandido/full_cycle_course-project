@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    command: ./.docker/entrypoint.sh
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/home/node/app
+  db:
+    image: mysql:lts
